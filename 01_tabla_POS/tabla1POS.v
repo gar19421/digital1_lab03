@@ -14,8 +14,9 @@ module tabla1POS();
   and U1(OUT, O1, O2, O3);
 
   initial begin
-    $display("A B C Y");
-    $monitor("%b %b %b %b", A, B, C, OUT);
+    $display("A B C | Y");
+    $display("---------");
+    $monitor("%b %b %b | %b", A, B, C, OUT);
     A = 0; B = 0; C=0;
     #1 C = 1;
     #1 B = 1; C = 0;
@@ -27,9 +28,9 @@ module tabla1POS();
     #1 $finish;
   end
 
-  initial
-    begin
-      $dumpfile("tabla1POS_tb.vcd");
-      $dumpvars(0, tabla1POS);
-    end
+  initial begin
+    $dumpfile("tabla1POS_tb.vcd");
+    $dumpvars(0, tabla1POS);
+  end
+
 endmodule
