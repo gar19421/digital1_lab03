@@ -45,9 +45,9 @@ module tabla4POS();
 
   end
 
-  /*initial begin
+  initial begin
       $dumpfile("tabla4POS_tb.vcd");
       $dumpvars(0, tabla4POS);
-  end*/
+  end
 
 endmodule

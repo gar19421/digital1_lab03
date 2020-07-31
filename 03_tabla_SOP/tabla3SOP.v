@@ -43,9 +43,9 @@ module tabla3SOP();
 
   end
 
-  /*initial begin
+  initial begin
       $dumpfile("tabla3SOP_tb.vcd");
       $dumpvars(0, tabla3SOP);
-  end*/
+  end
 
 endmodule

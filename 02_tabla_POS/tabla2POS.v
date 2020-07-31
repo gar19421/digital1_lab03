@@ -31,9 +31,9 @@ module tabla2POS();
         #1 $finish;
     end
 
-    /*initial begin
+    initial begin
         $dumpfile("tabla2POS_tb.vcd");
         $dumpvars(0, tabla2POS);
-    end*/
+    end
 
 endmodule

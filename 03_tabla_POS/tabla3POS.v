@@ -45,9 +45,9 @@ module tabla3POS();
 
   end
 
-  /*initial begin
+  initial begin
       $dumpfile("tabla3POS_tb.vcd");
       $dumpvars(0, tabla3POS);
-  end*/
+  end
 
 endmodule

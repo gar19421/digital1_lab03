@@ -29,9 +29,9 @@ module tabla2SOP();
         #1 $finish;
     end
 
-    /*initial begin
+    initial begin
         $dumpfile("tabla2SOP_tb.vcd");
         $dumpvars(0, tabla2SOP);
-    end*/
+    end
 
 endmodule
